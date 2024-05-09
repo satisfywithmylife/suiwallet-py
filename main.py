@@ -1,14 +1,3 @@
-# suiwallet-py
-blockchain sui official wallet python sdk,  suport use mnemonic seeds generate sui address and private key
-
-
-## pip
-```
-pip install -r requirements.txt
-```
-
-## 
-```python
 from bip_utils import Bip39SeedGenerator, Bip44Coins, Bip44
 from bech32 import bech32_encode, convertbits
 
@@ -36,32 +25,9 @@ class Suiwallet:
         return address, pk
         
         
-
-```
-
-## test
-```python
 if __name__ == '__main__':
     mnc = 'life trap person three judge sadness curtain wise gas dynamic grow guard'
     sw = Suiwallet(mnc)
     add, pk = sw.get_address_pk()
     print(f'mnemonic seeds: {mnc}')
-    print(f'address: {add}, private key: {pk}')
-```
-## result
-
-```
-mnemonic seeds: life trap person three judge sadness curtain wise gas dynamic grow guard
-address: 0x974390383087ba689f0af383b2e9b2bea0b758f8ebe8a31ecbab21fb4cc98990, private key: suiprivkey1qpce53dxkltypj3y96nc9u6c096m27vj7p86yk4znv6j5rf04pf9uh20z7y
-```
-
-## import the mnemonic seed to fuel official wallet , get result
-
-
-## if you export private key from wallet, you will get same result
-
-
-# last but important!
-1. test the result and compare it with main web wallet app(such as: metamask, mathwallet, trustwallet...) before you deposit crypto assets to the address
-2. some wallet may get diffrent result, because it may use diffrent derive path to generate wallet
-3. learn about hd-wallet principle by your self
+    print(f'sui official wallet address: {add}, private key: {pk}')
