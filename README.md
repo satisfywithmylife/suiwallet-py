@@ -57,8 +57,12 @@ address: 0x974390383087ba689f0af383b2e9b2bea0b758f8ebe8a31ecbab21fb4cc98990, pri
 
 ## import the mnemonic seed to fuel official wallet , get result
 
+<img width="30%" alt="image" src="https://github.com/satisfywithmylife/suiwallet-py/assets/30144807/d9f684e6-d443-40ce-9977-8abb7f4448be">
+
 
 ## if you export private key from wallet, you will get same result
+
+<img width="30%" alt="image" src="https://github.com/satisfywithmylife/suiwallet-py/assets/30144807/cd0cbd42-b747-4347-a49e-0c2ccb3b875d">
 
 
 # last but important!
